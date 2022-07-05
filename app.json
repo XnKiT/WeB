@@ -1,0 +1,54 @@
+{
+    "name": "WeBSiTe",
+    "description": "Simple website for developers.",
+    "logo": "",
+    "keywords": [
+        "developerwebsite",
+        "flask",
+        "website",
+        "bootstrap"
+    ],
+    "repository": "https://github.com/XnKiT/DeB",
+    "website": "xnkit.github.io/k",
+    "env": {
+        "NAME": {
+            "description": "ADD HERE YOUR NAME",
+            "value": ""
+        },
+        "IMAGE": {
+            "description": "ADD YOUR IMAGE URL HERE",
+            "required": false,
+            "value": ""
+        },
+        "SHORT_BIO": {
+            "description": "ADD YOUR SHORT BIO HERE",
+            "required": false,
+            "value": ""
+            
+        },
+        "ABOUT": {
+            "description": "ADD YOUR ABOUT DESCRIPTION",
+            "required": false,
+            "value": ""
+        },
+        "GITHUB": {
+            "description": "ADD YOUR GITHUB URL",
+            "required": false,
+            "value": ""
+        },
+        "FACEBOOK": {
+            "description": "ADD YOUR TELEGRAM URL",
+            "required": false,
+            "value": ""
+        },
+        "INSTAGRAM": {
+            "description": "ADD YOUR INSTAGRAM URL",
+            "required": false,
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        } ]
+}
